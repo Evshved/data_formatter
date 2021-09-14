@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Fixnum
+class Integer
   def ordinalize
     return "#{self}th" if (11..13).cover?(abs % 100)
 
