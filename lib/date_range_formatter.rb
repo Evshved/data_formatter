@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'date'
-require 'fixnum'
+require 'integer_patch'
 require_relative 'equal_checker'
 require_relative 'time_range_performer'
 require_relative 'time_range_printer'
